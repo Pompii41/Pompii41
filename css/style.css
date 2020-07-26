@@ -50,7 +50,7 @@ html {
 .nav_conteiner {
   display: flex;
   justify-content: space-between;
-  width: 611px;
+  width: 630px;
   align-items: center;
 }
 
@@ -63,7 +63,6 @@ html {
 
 .nav_item {
   display: flex;
-  width: 502px;
   justify-content: space-between;
 }
 
