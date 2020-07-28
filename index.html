@@ -22,7 +22,7 @@
   <header class="header">
     <div class="conteiner">
       <div class="nav_box">
-        <div> <a href="" class="logo">Pompii41</a></div>
+        <div class="lg"> <a href="" class="logo">Pompii41</a></div>
         <div class="nav_conteiner">
           <ul class="nav_item">
             <li><a href="" class="nav_item_link">История группы</a></li>
@@ -39,7 +39,7 @@
           <span class="title_decoration">Rap artist</span>
           <span class="title_to">Welcome to my world</span>
         </h1>
-        <button class="btn_title">Learn more</button>
+        <button type="button" class="btn_title">Жми</button>
       </div>
     </div>
   </header>
@@ -59,7 +59,7 @@
             </div>
             <div class="description">
               <h3 class="title_services">Помпий41-Ne КиПятись</h3>
-              <audio controls>
+              <audio class="audio" controls>
                 <source src="./audio/Помпий41-Ne КиРятись.mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
                 <a href="./audio/Помпий41-Ne КиРятись.mp3">Скачайте музыку</a>.
@@ -73,7 +73,7 @@
               </svg></div>
             <div class="description">
               <h3 class="title_services">P.S. Тебя люблю</h3>
-              <audio controls>
+              <audio class="audio" controls>
 
                 <source src="./audio/Elvi_level-P.S. Тебя люблю.mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
@@ -90,7 +90,7 @@
               </svg></div>
             <div class="description">
               <h3 class="title_services">Elvi_level-КобраКван(Гимн)</h3>
-              <audio controls>
+              <audio class="audio" controls>
 
                 <source src="./audio/Elvi_level-КобраКван(Гимн).mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
@@ -107,7 +107,7 @@
               </svg></div>
             <div class="description">
               <h3 class="title_services">Помпий41-Не роби менi у сердцi боллю..</h3>
-              <audio controls>
+              <audio class="audio" controls>
 
                 <source src="./audio/Помпий41-Не роби менi у сердцi боллю..mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
@@ -122,7 +122,7 @@
               </svg></div>
             <div class="description">
               <h3 class="title_services">Свобода</h3>
-              <audio controls>
+              <audio class="audio" controls>
 
                 <source src="./audio//Elvi_level-Свобода.mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
@@ -138,7 +138,7 @@
               </svg></div>
             <div class="description">
               <h3 class="title_services">Помпий41 ft Наталья Адабаш - Крест</h3>
-              <audio controls>
+              <audio class="audio" controls>
 
                 <source src="./audio/Помпий41 ft Наталья Адабаш - Крест(TUNE).mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
@@ -163,11 +163,13 @@
         <ul class="team">
           <li class="team_item">
             <div class="box_image">
-              <div class="image_team"> <img srcset="./img/kart/ya.jpg , ./img/kart/ya_cut-photo.ru.jpg"
-                  src="./img/kart/ya.jpg" sizes="380px" height="470" alt="">
+              <div class="image_team">
+                <img class="image_mobile" srcset="./img/kart/ya.jpg , ./img/kart/ya.jpg" src="./img/kart/ya.jpg"
+                  sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.facebook.com/profile.php?id=100008277485855"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-facebook"></use>
                         </svg>
@@ -177,12 +179,14 @@
                           <use href="./img/icon/sprite.svg#icon-twitter"></use>
                         </svg>
                       </a></li>
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://nl.pinterest.com/grewtsovsergey/boards/"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-pinterest"></use>
                         </svg>
                       </a></li>
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.instagram.com/pompii41/?hl=ru"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-instagram"></use>
                         </svg>
@@ -196,11 +200,12 @@
           </li>
           <li class="team_item">
             <div class="box_image">
-              <div class="image_team"> <img srcset="./img/kart/natasha.jpg 380w " src="./img/kart/natasha.jpg"
-                  sizes="380px" height="470" alt="">
+              <div class="image_team"> <img class="image_mobile" srcset="./img/kart/natasha.jpg 380w "
+                  src="./img/kart/natasha.jpg" sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.facebook.com/natasha.adabash"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-facebook"></use>
                         </svg>
@@ -215,7 +220,8 @@
                           <use href="./img/icon/sprite.svg#icon-pinterest"></use>
                         </svg>
                       </a></li>
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.instagram.com/natashkaadabashka/?hl=ru"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-instagram"></use>
                         </svg>
@@ -230,11 +236,12 @@
           <li class="team_item">
             <div class="box_image">
               <div class="image_team">
-                <img srcset="./img/kart/romacutphotoru.jpg 380w " src="./img/kart/romacutphotoru.jpg" sizes="380px"
-                  height="470" alt="">
+                <img class="image_mobile" srcset="./img/kart/romacutphotoru.jpg 380w "
+                  src="./img/kart/romacutphotoru.jpg" sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.facebook.com/profile.php?id=100045148425557"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-facebook"></use>
                         </svg>
@@ -249,7 +256,8 @@
                           <use href="./img/icon/sprite.svg#icon-pinterest"></use>
                         </svg>
                       </a></li>
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.instagram.com/romka7770/?hl=ru"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-instagram"></use>
                         </svg>
@@ -273,15 +281,16 @@
           </span>
           <span class="title_tosection--item  "></span>
         </h2>
-        <p class="team_subtitle"> </p>
+        <p class="team_subtitle">Мы всегда готовы к сотрудничеству , и предложениям! </p>
         <ul class="team">
           <li class="team_item">
             <div class="box_image">
-              <div class="image_team"> <img srcset="./img/kart/Ksusha.jpg 380w " src="./img/kart/Ksusha.jpg"
-                  sizes="380px" height="470" alt="">
+              <div class="image_team"> <img class="image_mobile" srcset="./img/kart/Ksusha.jpg 380w "
+                  src="./img/kart/Ksusha.jpg" sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.facebook.com/ksenia.shipilova.3?__tn__=%2Cd"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-facebook"></use>
                         </svg>
@@ -296,7 +305,8 @@
                           <use href="./img/icon/sprite.svg#icon-pinterest"></use>
                         </svg>
                       </a></li>
-                    <li class="social_item"><a href="" class="social_item--link">
+                    <li class="social_item"><a href="https://www.instagram.com/doctor_ksysha/?hl=ru"
+                        class="social_item--link">
                         <svg class="icon_social">
                           <use href="./img/icon/sprite.svg#icon-instagram"></use>
                         </svg>
@@ -310,7 +320,7 @@
           </li>
           <li class="team_item">
             <div class="box_image">
-              <div class="image_team"> <img srcset="./img/kart/ggg.jpg 380w , ./img/kart/ggg.jpg "
+              <div class="image_team"> <img class="image_mobile" srcset="./img/kart/ggg.jpg 380w , ./img/kart/ggg.jpg "
                   src="./img/kart/ggg.jpg" sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
@@ -344,8 +354,8 @@
           <li class="team_item">
             <div class="box_image">
               <div class="image_team">
-                <img srcset="./img/kart/ggg.jpg 380w , ./img/kart/ggg.jpg " src="./img/kart/ggg.jpg" sizes="380px"
-                  height="470" alt="">
+                <img class="image_mobile" srcset="./img/kart/ggg.jpg 380w , ./img/kart/ggg.jpg "
+                  src="./img/kart/ggg.jpg" sizes="380px" height="470" alt="">
                 <div class="overlay">
                   <ul class="social">
                     <li class="social_item"><a href="" class="social_item--link">
