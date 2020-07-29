@@ -476,7 +476,7 @@ html {
 }
 @media (max-width: 767px) {
   .conteiner {
-    background-image: url(/img/fone/mobile2.jpg);
+    background-image: url(../img/fone/767.jpg);
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -484,7 +484,7 @@ html {
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .conteiner {
-      background-image: url(/img/fone/mobile2.jpg);
+      background-image: url(../img/fone/767.jpg);
       background-size: cover;
       background-position: center;
       margin: 0 auto;
