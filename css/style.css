@@ -473,8 +473,14 @@ html {
     font-style: italic;
     line-height: 1.6;
   }
+  .main {
+    background-image: url(../img/telega.jpg);
+  }
 }
 @media (max-width: 767px) {
+  .main {
+    background-image: url(../img/telega.jpg);
+  }
   .title_header {
     padding-bottom: 50px;
   }
