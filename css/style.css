@@ -475,6 +475,9 @@ html {
   }
 }
 @media (max-width: 767px) {
+  .title_header {
+    padding-bottom: 50px;
+  }
   .conteiner {
     background-image: url(../img/fone/767.jpg);
     background-size: cover;
@@ -502,6 +505,7 @@ html {
     line-height: 1.2;
     display: block;
     text-align: center;
+    padding-top: 50px;
   }
 
   .title_decoration {
