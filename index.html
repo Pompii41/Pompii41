@@ -9,7 +9,7 @@
   <meta property="og:title" content="Pompii41">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Module_10</title>
+  <title>Pompii41</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -20,27 +20,44 @@
 
 <body>
   <header class="header">
-    <div class="conteiner">
-      <div class="nav_box">
-        <!-- <div class="lg"> <a href="" class="logo">Pompii41</a></div> -->
-        <div class="lg"> <a href="" class="logo">Pompii41</a></div>
-        <div class="nav_conteiner">
-          <ul class="nav_item">
-            <li><a href="" class="nav_item_link">История группы</a></li>
-            <li><a href="" class="nav_item_link">Наши работы</a></li>
-            <li><a href="" class="nav_item_link">Наша команда</a></li>
-            <li><a href="" class="nav_item_link">Блог</a></li>
-            <li><a href="" class="nav_item_link">Контакты</a></li>
-          </ul>
 
+    <div class="conteiner">
+      <nav id="menu">
+        <ul class="nav_menu">
+          <li class="nav_menu-item"><a href="">История группы</a></li>
+          <li class="nav_menu-item"><a href=""></a>Наши работы</li>
+          <li class="nav_menu-item"><a href=""></a>Наша команда</li>
+          <li class="nav_menu-item"><a href=""></a>Блог</li>
+          <li class="nav_menu-item"><a href=""></a>Контакты</li>
+        </ul>
+        <div class="mobile-bar" onclick="toggleMobileMenu();">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      </div>
-      <div class="title_header">
-        <h1 class="title">
-          <span class="title_decoration">Rap artist</span>
-          <span class="title_to">Welcome to my world</span>
-        </h1>
-        <button type="button" class="btn_title">Жми</button>
+      </nav>
+      <div class="box">
+        <div class="nav_box">
+          <!-- <div class="lg"> <a href="" class="logo">Pompii41</a></div> -->
+          <div class="lg"> <a href="" class="logo">Pompii41</a></div>
+          <div class="nav_conteiner">
+            <ul class="nav_item">
+              <li><a href="" class="nav_item_link">История группы</a></li>
+              <li><a href="" class="nav_item_link">Наши работы</a></li>
+              <li><a href="" class="nav_item_link">Наша команда</a></li>
+              <li><a href="" class="nav_item_link">Блог</a></li>
+              <li><a href="" class="nav_item_link">Контакты</a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="title_header">
+          <h1 class="title">
+            <span class="title_decoration">Rap artist</span>
+            <span class="title_to">Welcome to my world</span>
+          </h1>
+          <button type="button" class="btn_title">Жми</button>
+        </div>
       </div>
     </div>
   </header>
@@ -406,6 +423,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="/js/menu.js"></script>
 </body>
 
 </html>

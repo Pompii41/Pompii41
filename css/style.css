@@ -477,7 +477,76 @@ html {
     background-image: url(../img/telega.jpg);
   }
 }
+
 @media (max-width: 767px) {
+  nav .mobile-bar {
+    display: flex;
+  }
+  .nav_menu {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    visibility: none;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    flex-direction: column;
+    background: #f1f1f1;
+    margin-left: -100%;
+  }
+  .nav_menu.active {
+    opacity: 1;
+    min-height: 500px;
+    right: 0;
+    margin-left: 0%;
+    background: #e1e1e1;
+  }
+  .nav_menu.active li {
+    display: block;
+  }
+  .nav_menu.active li a {
+    display: block;
+  }
+  nav {
+    display: flex;
+    position: relative;
+    display: inline-block;
+  }
+  nav .mobile-bar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    /* display: none; */
+  }
+  nav .mobile-bar span {
+    display: block;
+    height: 2px;
+    width: 20px;
+    margin: 2px;
+    background: rgb(255, 255, 255);
+  }
+  .nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: ease 1s all;
+  }
+  .nav_menu-item {
+    display: inline-block;
+  }
+  .nav_menu-item a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+  .nav_menu-item a:hover {
+    background: #e1e1e1;
+  }
+
   .main {
     background-image: url(../img/telega.jpg);
   }
@@ -489,6 +558,9 @@ html {
     background-size: cover;
     background-position: center;
     margin: 0 auto;
+  }
+  .box {
+    padding: 130px 52px;
   }
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
