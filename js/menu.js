@@ -1,4 +1,6 @@
-function toggleMobileMenu() {
-  document.querySelector("#menu").classList.toggle("active");
-  document.querySelector("#mobile-bar").classList.toggle("active");
-}
+(function () {
+  const burger = document.querySelector(`.burger`);
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("burger_active");
+  });
+})();

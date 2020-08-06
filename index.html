@@ -22,31 +22,36 @@
   <header class="header">
 
     <div class="conteiner">
-      <nav id="menu">
-        <ul class="nav_menu">
-          <li class="nav_menu-item"><a href="">История группы</a></li>
-          <li class="nav_menu-item"><a href=""></a>Наши работы</li>
-          <li class="nav_menu-item"><a href=""></a>Наша команда</li>
-          <li class="nav_menu-item"><a href=""></a>Блог</li>
-          <li class="nav_menu-item"><a href=""></a>Контакты</li>
-        </ul>
-        <div class="mobile-bar" onclick="toggleMobileMenu();">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
+      <div class="burger">
+        <nav class="mobile-menu">
+          <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+          <label for="checkbox" class="mobile-menu__btn">
+            <div class="mobile-menu__icon"></div>
+          </label>
+          <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">История группы</a></li>
+              <li class="mobile-menu__item"><a href="#our_work" class="mobile-menu__link">Наши
+                  работы</a></li>
+              <li class="mobile-menu__item"><a href="#our_meat" class="mobile-menu__link">Наша
+                  команда</a>
+              </li>
+              <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
       <div class="box">
         <div class="nav_box">
-          <!-- <div class="lg"> <a href="" class="logo">Pompii41</a></div> -->
           <div class="lg"> <a href="" class="logo">Pompii41</a></div>
           <div class="nav_conteiner">
             <ul class="nav_item">
-              <li><a href="" class="nav_item_link">История группы</a></li>
-              <li><a href="" class="nav_item_link">Наши работы</a></li>
-              <li><a href="" class="nav_item_link">Наша команда</a></li>
-              <li><a href="" class="nav_item_link">Блог</a></li>
-              <li><a href="" class="nav_item_link">Контакты</a></li>
+              <li><a href="#" class="nav_item_link">История группы</a></li>
+              <li><a href="#" class="nav_item_link">Наши работы</a></li>
+              <li><a href="#" class="nav_item_link">Наша команда</a></li>
+              <li><a href="#" class="nav_item_link">Блог</a></li>
+              <li><a href="#" class="nav_item_link">Контакты</a></li>
             </ul>
 
           </div>
@@ -64,6 +69,7 @@
   <main class="main">
     <section>
       <div class="conteiner_services">
+        <a name="our_work" href=""></a>
         <h2 class="title_section">
           <span class="title_section_item">Некоторые наши работы</span>
           <span class="title_tosection--item  ">Music</span>
@@ -80,7 +86,7 @@
               <audio class="audio" controls>
                 <source src="./audio/Помпий41-Ne КиРятись.mp3" type="audio/mp3">
                 Тег audio не поддерживается вашим браузером.
-                <a href="./audio/Помпий41-Ne КиРятись.mp3">Скачайте музыку</a>.
+                <a name="our_work" href="./audio/Помпий41-Ne КиРятись.mp3">Скачайте музыку</a>.
               </audio>
               <p class="subtitle">Данная композиция написана и исполнена в стиле андэр Сергеем Гревцовым!</p>
             </div>
@@ -174,7 +180,7 @@
         <h2 class="title_section">
           <span class="title_section_item">Кто мы?
           </span>
-          <span class="title_tosection--item  ">Наша команда!</span>
+          <span id="our_meat" class="title_tosection--item">Наша команда!</span>
         </h2>
         <p class="team_subtitle">Мы не конкретно какае-то определенная группа мы просто люди которые собрались, для того
           , чтобы делать , то что любим ! </p>
