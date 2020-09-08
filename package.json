@@ -1,0 +1,27 @@
+{
+  "name": "Pompii41",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/menu.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pompii41/Pompii41.git"
+  },
+  "keywords": [],
+  "author": "YOUR_NAME <sergei_grevtsov>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pompii41/Pompii41/issues"
+  },
+  "homepage": "https://github.com/Pompii41/Pompii41#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
