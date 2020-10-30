@@ -1074,6 +1074,7 @@ resize:vertical;
     padding: 32px;
     z-index:999;
    box-shadow: 5px 5px 15px #0003;
+   width: 320px;
 }
   .is_open {
     display: flex;
