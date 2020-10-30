@@ -61,7 +61,81 @@
             <span class="title_decoration">Rap artist</span>
             <span class="title_to">Welcome to my world</span>
           </h1>
-          <button type="button" class="btn_title">Жми</button>
+          <button class="btn_title" data-action="open-modal">Жми</button>
+          <!-- modalStart -->
+          <div class="open-modal ">
+            <div class="backdrop js-backdrop">
+              <div class="modal ">
+                <button class="modal__close" data-action="close-modal">&times;</button>
+                <div class="wraper">
+
+                  <div class="form">
+                    <form action="#" id="form" class="form__body">
+                      <h1 class="form__title">Отправка данных на почту</h1>
+                      <div class="form__item">
+                        <label for="forName" class="form__label">Имя*:</label>
+                        <input type="text" id="forName" name="name" class="form__input">
+                      </div>
+                      <div class="form__item">
+                        <label for="forEmail" class="form__label">E-mail*:</label>
+                        <input type="text" id="forEmail" name="email" class="form__input">
+                      </div>
+                      <div class="form__item">
+                        <div class="form__label">Левша или правша?</div>
+                        <div class="options">
+                          <div class="options__item">
+                            <input id="formRightHanded" checked name="hand" value="right" type="radio"
+                              class="options__input">
+                            <label for="formRightHanded" class="options__label"><span>Правша</span> </label>
+                          </div>
+                          <div class="options__item">
+                            <input id="formLeftHanded" name="hand" value="Left" type="radio" class="options__input">
+                            <label for="formLeftHanded" class="options__label"><span>Левша</span></label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="options__item">
+                        <label for="formMessage" class="form__label">Сообщение:</label>
+                        <textarea name="message" id="formMessage" class="form__input"></textarea>
+                      </div>
+                      <div class="form__item">
+                        <div class="form__label">Возраст:</div>
+                        <select name="" id="">
+                          <option value="от 18 до 25">от 18 до 25</option>
+                          <option value="от 25 до 40">от 25 до 40</option>
+                          <option value="от 40 до 50">от 40 до 50</option>
+                          <option value="от 50 и выше">от 50 и выше</option>
+                        </select>
+                      </div>
+                      <div class="form__item">
+                        <div class="form__label">Прикрепить ваши трэки</div>
+                        <div class="file">
+                          <div class="file__item">
+                            <input id="form__image" accept=".mp3, .mp4, .wav " type="file" name="image"
+                              class="file__input">
+                            <div class="file__button">Выбрать</div>
+                          </div>
+                          <div class="form__preview"></div>
+                        </div>
+                      </div>
+                      <div class="form__item">
+                        <div class="checkbox">
+                          <input name="agreement" class="checkbox__input" type="checkbox">
+                          <label for="formAgreement" class="checkbox__label">
+                            <span>Я даю свое согласие на обработку персональных данных соответствии с <a
+                                href="">Условиями</a>*.</span>
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="form__button">Отправить</button>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- modalAnd -->
         </div>
       </div>
     </div>
@@ -428,7 +502,7 @@
       </div>
     </div>
   </footer>
-  <script type="module" src="./src/menu.js"></script>
+  <script type="module" src="./src/modal.js"></script>
 </body>
 
 </html>
