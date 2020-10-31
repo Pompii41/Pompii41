@@ -1013,8 +1013,9 @@ nav {
    margin: 0px 10px;
    height: 30px;
    border-radius: 5px;
-   width: 80%;
+  
    font-size: 18px;
+   text-align: center;
 }
 textarea.form__input{
 min-height: 60px;
