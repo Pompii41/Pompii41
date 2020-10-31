@@ -65,7 +65,9 @@
           <!-- modalStart -->
           <div class="open-modal ">
             <div class="backdrop js-backdrop">
-              <div class="modal ">
+
+
+              <div class="modal">
                 <button class="modal__close" data-action="close-modal">&times;</button>
                 <div class="wraper">
 
@@ -80,7 +82,7 @@
                         <label for="forEmail" class="form__label">E-mail*:</label>
                         <input type="text" id="forEmail" name="email" class="form__input">
                       </div>
-                      <div class="form__item">
+                      <div class="form__item__heand">
                         <div class="form__label">Левша или правша?</div>
                         <div class="options">
                           <div class="options__item">
@@ -98,9 +100,9 @@
                         <label for="formMessage" class="form__label">Сообщение:</label>
                         <textarea name="message" id="formMessage" class="form__input"></textarea>
                       </div>
-                      <div class="form__item">
+                      <div class="form__item__selest">
                         <div class="form__label">Возраст:</div>
-                        <select name="" id="">
+                        <select class="selest__form" name="" id="">
                           <option value="от 18 до 25">от 18 до 25</option>
                           <option value="от 25 до 40">от 25 до 40</option>
                           <option value="от 40 до 50">от 40 до 50</option>
@@ -108,17 +110,16 @@
                         </select>
                       </div>
                       <div class="form__item">
-                        <div class="form__label">Прикрепить ваши трэки</div>
+                        <div class="form__label__file">Прикрепить ваши трэки</div>
                         <div class="file">
                           <div class="file__item">
                             <input id="form__image" accept=".mp3, .mp4, .wav " type="file" name="image"
                               class="file__input">
-                            <div class="file__button">Выбрать</div>
                           </div>
                           <div class="form__preview"></div>
                         </div>
                       </div>
-                      <div class="form__item">
+                      <div class="form__item__checbox">
                         <div class="checkbox">
                           <input name="agreement" class="checkbox__input" type="checkbox">
                           <label for="formAgreement" class="checkbox__label">
@@ -127,9 +128,9 @@
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="form__button">Отправить</button>
+                      <button type="submit" class="form__button">Go!</button>
                     </form>
-                    <button class="btn_title_form">Go!</button>
+
                   </div>
                 </div>
 

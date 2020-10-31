@@ -979,21 +979,32 @@ nav {
     display: block;
   }
   form{
-    max-width: 550px;
+     width: 80%;
     margin: 0px auto;
     color: #fff;
-    padding: 30px 0;
+   
  
   }
+  .selest__form{
+    width: 80%;
+  }
    .form__title{
-         font-size: 25px;
+        font-size: 13px;
     font-weight: 700;
     margin: 0px 10px 30px;
     text-align: center;
     }
     .form__item{
       margin: 0px 0px 20px;
+      
     }
+    .form__item__checbox,
+    .form__item__selest,
+    .form__item__heand{
+  margin: 0px 0px 20px;
+      display: none;
+    }
+    
     .form__label{
       font-size: 18px;
       display: block;
@@ -1002,7 +1013,7 @@ nav {
    margin: 0px 10px;
    height: 30px;
    border-radius: 5px;
-   width: 280px;
+   width: 80%;
    font-size: 18px;
 }
 textarea.form__input{
@@ -1076,9 +1087,9 @@ resize:vertical;
     z-index:999;
    box-shadow: 5px 5px 15px #0003;
    width: 320px;
- overflow-y: auto;
  height: 100%;
- margin-top: 200px;
+    margin-top: 50px;
+ 
 }
   .is_open {
     display: flex;
@@ -1086,7 +1097,9 @@ resize:vertical;
    .is_closing {
     animation: fadeOut 0.3s ease forwards;
   }
- 
+.open-modal{
+  position: relative;
+}
 
   .modal__close {
     position: absolute;
@@ -1098,18 +1111,14 @@ resize:vertical;
     font-weight: 700;
     border: 2px solid;
     border-radius: 50%;
-    top: 80px;
-    right: 60px;
-    background: #fff;
+    top: 0px;
+    right: 0px;
+    background: transparent;
     cursor: pointer;
     transition: all 0.3s;
-   
+    color: white;
 }
- .modal__close:hover {
-      background: #000;
-      color: #fff;
-    
-  }
+ 
 
 .backdrop{
   display: flex;
@@ -1132,6 +1141,14 @@ resize:vertical;
  pointer-events: initial ;
   animation: slideUp 1s 0.5s ease forwards;
 }
+.burger{
+  visibility: visible;
+ pointer-events: initial ;
+ 
+}
+    .js-burger{
+      display: none;
+    }
 
 @keyframes fadeOut {
   from {
@@ -1159,7 +1176,7 @@ resize:vertical;
     transform: translateY(0);
   }
 }
-.btn_title_form {
+.form__button {
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -1173,7 +1190,28 @@ resize:vertical;
     outline: none;
     align-items: center;
     background-color: transparent;
-    margin: 50px auto ;
-    
-}
+    margin: 0 auto ;
+    display: block;
+    }
+    .form__label__file{
+       font-size: 9px;
+       color: #ffffff;
+       font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    }
+    .file__input{
+        font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    align-items: center;
+    background-color: transparent;
+    display: block;
+    }
+
     }
