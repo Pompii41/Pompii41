@@ -986,9 +986,10 @@ nav {
  
   }
    .form__title{
-      font-size: 30px;
-      font-weight: 700;
-      margin: 70px 50px 30px;
+         font-size: 25px;
+    font-weight: 700;
+    margin: 0px 10px 30px;
+    text-align: center;
     }
     .form__item{
       margin: 0px 0px 20px;
@@ -998,14 +999,14 @@ nav {
       display: block;
        margin: 0px 0px 10px;}
 .form__input{
-   margin: 0px 20px;
-   height: 50px;
+   margin: 0px 10px;
+   height: 30px;
    border-radius: 5px;
-   width: 100%;
+   width: 280px;
    font-size: 18px;
 }
 textarea.form__input{
-min-height: 120px;
+min-height: 60px;
 resize:vertical;
 padding: 20px;
 }
@@ -1071,10 +1072,11 @@ resize:vertical;
   right: 0;
  animation: fade 0.3s ease forwards;
    background: rgb(58, 43, 43);
-    padding: 32px;
+    padding: 10px;
     z-index:999;
    box-shadow: 5px 5px 15px #0003;
    width: 320px;
+   max-height: 750px;
 }
   .is_open {
     display: flex;
@@ -1095,7 +1097,7 @@ resize:vertical;
     border: 2px solid;
     border-radius: 50%;
     top: 50px;
-    right: 75px;
+    right: 120px;
     background: #fff;
     cursor: pointer;
     transition: all 0.3s;
@@ -1120,7 +1122,8 @@ resize:vertical;
    background-color:rgba(0, 0, 0, 0.3) ;
    pointer-events: none;
    opacity: 0;
-   visibility: hidden;   
+   visibility: hidden; 
+ 
 }
 .show-modal{
   visibility: visible;
