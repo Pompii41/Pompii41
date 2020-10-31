@@ -989,7 +989,7 @@ nav {
     width: 80%;
   }
    .form__title{
-        font-size: 13px;
+        font-size: 15px;
     font-weight: 700;
     margin: 0px 10px 30px;
     text-align: center;
@@ -1083,13 +1083,12 @@ resize:vertical;
   right: 0;
  animation: fade 0.3s ease forwards;
    background: rgb(58, 43, 43);
-    padding: 10px;
+    padding:25% 10px;
     z-index:999;
    box-shadow: 5px 5px 15px #0003;
    width: 320px;
  height: 100%;
-    margin-top: 50px;
- 
+   
 }
   .is_open {
     display: flex;
