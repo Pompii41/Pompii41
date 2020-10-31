@@ -999,8 +999,8 @@ nav {
       
     }
     .form__item__checbox,
-    .form__item__selest,
-    .form__item__heand{
+    .form__item__selest
+    {
   margin: 0px 0px 20px;
       display: none;
     }
