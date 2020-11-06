@@ -72,15 +72,18 @@
                 <div class="wraper">
 
                   <div class="form">
-                    <form action="#" id="form" class="form__body">
+                    <form enctype="multipart/form-data" method="GET" action="#" id="form" class="form__body">
                       <h1 class="form__title">Отправка данных на почту</h1>
                       <div class="form__item">
-                        <label for="forName" class="form__label">Имя*:</label>
-                        <input type="text" id="forName" name="name" class="form__input">
+                        <label for="forName" class="form__label">Имя*:<p class="js__ref"></p></label>
+
+                        <input type="text" id="forName" data-input="input" name="name" class="form__input js__input">
                       </div>
+                      <p class="js__ref"></p>
                       <div class="form__item">
                         <label for="forEmail" class="form__label">E-mail*:</label>
                         <input type="text" id="forEmail" name="email" class="form__input">
+
                       </div>
                       <div class="form__item__heand">
                         <div class="form__label">Левша или правша?</div>
@@ -128,7 +131,7 @@
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="form__button">Go!</button>
+                      <button name="subcription" type="submit" class="form__button">Go!</button>
                     </form>
 
                   </div>
@@ -154,7 +157,7 @@
           <li class="servicec_item">
             <div class="icon_services">
               <svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-1"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-1"></use> -->
               </svg>
             </div>
             <div class="description">
@@ -169,7 +172,7 @@
           </li>
           <li class="servicec_item">
             <div class="icon_services"><svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-2"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-2"></use> -->
               </svg></div>
             <div class="description">
               <h3 class="title_services">P.S. Тебя люблю</h3>
@@ -186,7 +189,7 @@
           </li>
           <li class="servicec_item">
             <div class="icon_services"><svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-3"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-3"></use> -->
               </svg></div>
             <div class="description">
               <h3 class="title_services">Elvi_level-КобраКван(Гимн)</h3>
@@ -203,7 +206,7 @@
           </li>
           <li class="servicec_item">
             <div class="icon_services"><svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-4"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-4"></use> -->
               </svg></div>
             <div class="description">
               <h3 class="title_services">Помпий41-Не роби менi у сердцi боллю..</h3>
@@ -218,7 +221,7 @@
           </li>
           <li class="servicec_item">
             <div class="icon_services"><svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-5"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-5"></use> -->
               </svg></div>
             <div class="description">
               <h3 class="title_services">Свобода</h3>
@@ -234,7 +237,7 @@
           </li>
           <li class="servicec_item">
             <div class="icon_services"><svg class="icon_services--item">
-                <use href="./img/icon-section/sprite.svg#icon-6"></use>
+                <!-- <use href="./img/icon-section/sprite.svg#icon-6"></use> -->
               </svg></div>
             <div class="description">
               <h3 class="title_services">Помпий41 ft Наталья Адабаш - Крест</h3>
@@ -505,6 +508,8 @@
     </div>
   </footer>
   <script type="module" src="./src/modal.js"></script>
+  <script type="module" src="./src/menu.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
 </body>
 
 </html>

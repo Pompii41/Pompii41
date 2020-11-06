@@ -19,3 +19,15 @@ function populateMessage() {
   }
 }
 populateMessage();
+
+
+const inputJsRef = document.querySelector(`.js__ref`);
+const outPut =  document.querySelector(`.js__input`);
+let total = 0;
+const inputDebountCallBack = _.debounce (event => {
+  total = +1;
+  inputJsRef.textContent = `${event.target.value}`;
+  
+},300);
+
+outPut.addEventListener(`input`, inputDebountCallBack);
