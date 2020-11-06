@@ -646,7 +646,9 @@ text-align: center;
   }
   .title_header {
    margin: 0 auto;
-   width: 320px;
+    width: 320px;
+    align-items: center;
+    display: inline;
 }
   .mobile-menu {
     position: fixed;
